@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/servlets/ChangeUserinfo.java=UTF-8
+encoding//src/servlets/Login.java=UTF-8
+encoding//src/servlets/Register.java=UTF-8
+encoding//src/servlets/Rent.java=UTF-8
+encoding//src/servlets/carInfo_op.java=UTF-8
+encoding//src/servlets/message_op.java=UTF-8
+encoding//src/servlets/news_op.java=UTF-8
+encoding//src/servlets/rentList_op.java=UTF-8
+encoding//src/servlets/submitMessage.java=UTF-8
+encoding//src/servlets/userInfo_op.java=UTF-8

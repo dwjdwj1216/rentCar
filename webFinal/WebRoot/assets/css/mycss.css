@@ -1,0 +1,117 @@
+/* wraplist */
+.clearfix:after { content: "\0020"; clear: both; display: block; overflow: hidden; }
+.clearfix { *zoom: 1; }
+div{
+	display: block;
+	margin:0;
+}
+ul{
+	list-style: none;
+}
+.wraplist .det-carlist { padding: 20px 0 20px 20px; border-bottom: 1px solid #eaeaea; }
+.wraplist .det-carlist:hover{ background:#F8F8F8;}
+.wraplist ul li.carpic { position: relative; float: left; }
+.wraplist ul li.carpic img { vertical-align: top; width: 158px;height: 100px;}
+.wraplist ul li.carpic i { position: absolute; top: 0; left: -20px; width: 56px; height: 56px; overflow: hidden; }
+.wraplist ul li.carname { float: left; padding-left: 20px; margin-top:60px;}
+.wraplist ul li.carname h4 {  height: 24px; line-height: 24px; overflow: hidden; }
+.wraplist ul li.carname h4 strong { float: left; padding-right: 15px; font-size: 16px; color: #666; }
+.wraplist ul li.carname h4 span { float: left; color: #666; font-size: 12px; font-weight: bold; background:#E2EFF7; padding-left:5px; padding-right:5px;}
+.wraplist ul li.carname p{ color:#999; font-weight:bolder; font-size:14px;}
+
+.wraplist ul li.carname p .sp-box { display:inline-block; height: 18px; margin-bottom: -4px; line-height: 18px; overflow: hidden; cursor: pointer; }
+.wraplist ul li.carname p .sp-box:hover { text-decoration: none; }
+.wraplist ul li.carname p .sp-box i { float: left; width: 21px; height: 17px; background:url(../../../Images/Order/NewStep/ico_ydV5.png) no-repeat; }
+.wraplist ul li.carname p .sp-jzxz i { background-position: 0 0; }
+.wraplist ul li.carname p .sp-xsxz i { background-position: -22px 0; }
+
+.wraplist ul li.carname p .sp-aczs i.lv0 { background-position: -66px 0; }
+.wraplist ul li.carname p .sp-aczs i.lv1 { background-position: -88px 0; }
+.wraplist ul li.carname p .sp-aczs i.lv2 { background-position: -110px 0; }
+.wraplist ul li.carname p .sp-aczs i.lv3 { background-position: -132px 0; }
+.wraplist ul li.carname p .sp-aczs i.lv4 { background-position: -154px 0; }
+.wraplist ul li.carname p .sp-aczs i.lv5 { background-position: -176px 0; }
+.wraplist ul li.carname p .sp-aczs i.lv6 { background-position: -198px 0; }
+.wraplist ul li.carname p .sp-aczs i.lv7 { background-position: -220px 0; }
+.wraplist ul li.carname p .sp-aczs i.lv8 { background-position: -242px 0; }
+.wraplist ul li.carname p .sp-aczs i.lv9 { background-position: -264px 0; }
+.wraplist ul li.carname p .sp-aczs i.lv10 { background-position: -288px 0; }
+.wraplist ul li.batch-name { width: 270px; }
+
+.wraplist ul li.carprice { float: left; width: 120px; padding-top: 4px; text-align: right; }
+.wraplist ul li.carprice .cp-average { font-family:Arial; float: right;   font-size:12px;color: #e65901; margin-left:-10px;  font-family:"\5FAE\8F6F\96C5\9ED1";}
+.wraplist ul li.carprice .cp-number { float: right; padding: 0 0 0 4px; font-size: 35px; color: #e65901; line-height: 38px; }
+.wraplist ul li.carprice .cp-unit { float: right; padding: 14px 0 0 5px; }
+.wraplist ul li.batch-price { width: 170px; }
+.wraplist ul li.batch-price .bold { font-weight: 700; }
+.wraplist ul li.batch-price .line-through { text-decoration: line-through; }
+
+.wraplist ul li.Btnsubmit { float: right; width: 96px; padding: 9px 30px 0 0; text-align: center; }
+.wraplist ul li.Btnsubmit .mt13 { margin-top: 13px; }
+.wraplist ul li.Btnsubmit span.open_01,
+.wraplist ul li.Btnsubmit span.open_02,
+.wraplist ul li.Btnsubmit span.open_03 { display: inline-block; width: 90px; height: 33px; padding-top:3px;background: url(../../../Images/Order/NewStep/bg_step2_new.png) no-repeat; border: none; cursor: pointer; font: 700 14px/28px tahoma, arial, \5b8b\4f53; text-align: center; }
+.wraplist ul li.Btnsubmit span.open_01 { background-position: 0 -74px; color: #fff; word-spacing: 3px; }
+.wraplist ul li.Btnsubmit span.open_01:hover{ background-position: 0 -112px; }
+.wraplist ul li.Btnsubmit span.open_02 { background: url(../../../Images/Order/NewStep/bg_step2_new.png) no-repeat 0 -150px;  color:#0088cc; font-weight:normal;}
+.wraplist ul li.Btnsubmit span.open_02:hover{ background: url(../../../Images/Order/NewStep/bg_step2_new.png) no-repeat 0 -187px; color:#fff; font-weight:bolder;}
+.wraplist ul li.Btnsubmit span.open_03 { background: url(../../../Images/Order/NewStep/bg_step2_new.png) no-repeat 0 -150px;  color:#0088cc; font-weight:normal;}
+.wraplist ul li.Btnsubmit span.open_03:hover{background: url(../../../Images/Order/NewStep/bg_step2_new.png) no-repeat 0 -187px; color:#fff; font-weight:bolder;}
+.wraplist ul li.Btnsubmit .btn-time { display: inline-block; margin-top: 5px; border-bottom: 1px solid #fff; color: #64a7c9; }
+.wraplist ul li.Btnsubmit a.btn-time:hover { color: #2c6aad; text-decoration: none; }
+
+.wraplist ul li.batch-button { float: right; width: 110px; height: 37px; padding: 16px 20px 0 0;}
+.wraplist ul li.batch-button .batch-booking,
+.wraplist ul li.batch-button .batch-booking-m,
+.wraplist ul li.batch-button .batch-change,
+
+
+
+
+
+.wraplist .short-rent { min-height: 150px; }
+.wraplist .short-rent ul li.carpic { margin-top: 25px; }
+.wraplist .short-rent ul li.carname { margin-top: 35px; }
+.wraplist .short-rent ul li.carprice-new p { padding: 50px 0; }
+.wraplist .short-rent ul li.carprice-new p .order-btn-new { top: 55px; }
+.show-carlist .showmd-list .batch-booking,
+.show-carlist .showmd-list .batch-booking-m { float: left; width: 90px; height: 36px; background: url(../../../Images/Order/NewStep/bg_step2_new.png) no-repeat; text-indent: -150%; cursor: pointer; overflow: hidden; }
+.show-carlist .showmd-list .batch-booking,
+.show-carlist .showmd-list .batch-booking-m { margin-top: 11px; }
+.wraplist ul li.batch-button .batch-booking,
+.show-carlist .showmd-list .batch-booking { background-position: 0 -298px; }
+.wraplist ul li.batch-button .batch-booking:hover { background-position: 0 -335px; }
+.wraplist ul li.batch-button .batch-booking-m,
+.show-carlist .showmd-list .batch-booking-m { background-position: 0 -561px; }
+.wraplist ul li.batch-button .batch-booking-m:hover,
+.show-carlist .showmd-list .batch-booking-m:hover { background-position: 0 -598px; }
+.wraplist ul li.batch-button .batch-change { background-position: 0 -372px; }
+.wraplist ul li.batch-button .batch-change:hover { background-position: 0 -409px; }
+.carprice-new{float: left; width: 420px; }
+.carprice-new p{ width:420px; padding:30px 0;position:relative;}
+.carprice-new p b{ font-size:16px; width:205px; display:inline-block; vertical-align:top; margin-top:14px;}
+.carprice-new .line{ height:1px; font-size:0px; border-bottom:1px dashed #ccc; padding:0;}
+.carprice-new p span{ font-size:12px; display:inline-block; width:110px; text-align:right;}
+.carprice-new p span i.symbol{ color:#EB5C00; font-style:normal; font-family: '\5fae\8f6f\96c5\9ed1'; font-size: 12px;}
+.carprice-new p span em.total-price{ color:#EB5C00; font-size:21px;}
+.carprice-new p span i.berore-price{ font-style:normal; font-size:12px; display:block; margin-top:-5px;}
+.carprice-new p span em.total-before{ text-decoration:line-through;}
+.carprice-new p button{ width:90px; height:29px;  text-align:center; font-size:14px; display:inline-block; position:absolute; right:5px; top:42px; cursor:pointer; }
+.carprice-new p .open_01 { color: #fff; font-weight:700; background:url(/content/Images/Order/NewStep/step1_btn_new.png) no-repeat 0 0; }
+.carprice-new p .open_01:hover{ color: #fff; background:url(/content/Images/Order/NewStep/step1_btn_new.png) no-repeat 0 -29px; }
+.carprice-new p .open_02,
+.carprice-new p .open_03,
+.carprice-new p .open_04 { color: #08c; font-weight: 400; background:url(/content/Images/Order/NewStep/step1_btn_new.png) no-repeat 0 -58px; }
+.carprice-new p .open_02:hover,
+.carprice-new p .open_03:hover,
+.carprice-new p .open_04:hover{ color: #fff; font-weight: 700; background:url(/content/Images/Order/NewStep/step1_btn_new.png) no-repeat 0 -87px; }
+/*.carprice-new p b a{ text-indent:29px; width:65px; height:16px;line-height:16px;background:url(/content/Images/Order/NewStep/charge_bg-3.jpg); display:inline-block; vertical-align:middle; color:#EB5C00; font-size:11px; float:right; margin-right:10px; margin-top:5px;font-weight:400; text-align:center;font-family: '\5fae\8f6f\96c5\9ed1';}*/
+.carprice-new p b a{ text-indent:29px; height:16px;line-height:16px;background:url(/content/Images/Order/NewStep/charge_bg-3.jpg) no-repeat; border:1px solid #e95e01; display:inline-block; vertical-align:middle; color:#EB5C00; font-size:11px; float:right; margin-right:5px; padding:0 2px; margin-top:5px;font-weight:400; text-align:center;font-family: '\5fae\8f6f\96c5\9ed1';}
+.carprice-new p b a:hover{ text-decoration:none;}
+.carprice-new .drop{ height:32px; border-top:1px dashed #ccc; position:relative; padding:0;} 
+.carprice-new .drop a{ right:0px; display:inline-block; position:absolute; width:85px; text-align: center; height:22px; line-height:22px; padding-left:5px; color:#0381CE; background-color:#DBF1FE; }
+.carprice-new .drop a s { display:inline-block;  width:10px; height:22px;background:url(/content/Images/Order/NewStep/new_drop_arrow.jpg) right 0 no-repeat; vertical-align:top;}
+.carprice-new .drop a.up s { background-position: right -22px; }
+
+
+
